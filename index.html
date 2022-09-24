@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechTrick || Home Page</title>
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome Link-->
+    <script
+      src="https://kit.fontawesome.com/806941754d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My Css Link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header area start -->
+    <heade class="header-area">
+      <nav class="bg-white" style="padding: 0px 5%">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <div class="d-flex align-items-center">
+              <!-- Logo -->
+              <a
+                href="index.html"
+                class="text-decoration-none d-flex align-items-center text-black"
+              >
+                <img src="img/logo.png" alt="" class="header-logo" />
+                <span class="fs-4 fw-bold"
+                  ><span class="text-info">Tech</span>Trick</span
+                >
+              </a>
+              <!---------- search ---------------->
+              <!-- <div>
+                <input
+                  style="width: 215px"
+                  type="text"
+                  class="rounded-2 bg-light p-1"
+                  placeholder="Search"
+                />
+              </div> -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- <ul class="nav justify-content-center header-menu">
+              <li class="nav-item">
+                <a class="nav-link active-menu" href="index.html"
+                  ><i class="fas fa-home pe-0"></i> Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fab fa-blogger"></i> Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-bell"></i> Notification</a
+                >
+              </li>
+            </ul> -->
+
+            <!---------- search ---------------->
+            <form class="d-flex px-5" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+          <div class="col-md-3 text-end">
+            <div class="account d-inline-block">
+              <a href="#">
+                <i class="fas fa-user-circle text-black fs-2 text-end"></i>
+
+                <!-- Account Manu -->
+                <ul class="account-menu" id="account-menu">
+                  <li>
+                    <a href=""><i class="fas fa-sign-in-alt"></i> Log in</a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fas fa-sign-out-alt"></i> Log out</a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fas fa-adjust"></i> Dark Mode</a>
+                  </li>
+                </ul>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </heade>
+
+    <!-- main area start -->
+    <main class="main">
+      <div>
+        <div class="main-wrap">
+          <!----------- Category ------------->
+          <div class="bg-white mt-4 rounded-2 py-2 main-caretogy-area">
+            <div class="catagory-area">
+              <h4 class="p-2 fw-semibold">Category</h4>
+              <ul class="p-0 category">
+                <li>
+                  <a id="android">
+                    <div><i class="fab fa-android text-info"></i> Android</div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+
+                  <!------ Dropdown Menu ---->
+                  <div class="dropdown_menu">
+                    <ul class="category-dropdown">
+                      <li>
+                        <a href="">
+                          <div>
+                            <i class="fab fa-android"></i> Android Tricks
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <div><i class="fab fa-android"></i> Apps review</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <div><i class="fab fa-android"></i> Games Review</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <div>
+                            <i class="fab fa-android"></i> Mobile Review
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <a id="education">
+                    <div>
+                      <i class="fas fa-user-graduate text-success"></i>
+                      Education
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+                  <!------ Dropdown Menu ---->
+                  <div class="dropdown_menu">
+                    <ul class="category-dropdown">
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-user-graduate"></i> Education
+                            Guideline
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-user-graduate"></i> Exam result
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-user-graduate"></i> Pdf books
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <a id="facebook">
+                    <div>
+                      <i class="fab fa-facebook-square text-primary"></i>
+                      Facebook tricks
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+
+                <li>
+                  <a id="youtube">
+                    <div>
+                      <i class="fab fa-youtube text-danger"></i> Youtube tricks
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+
+                <li>
+                  <a id="free-net-tricks">
+                    <div>
+                      <i class="fas fa-network-wired text-black"></i> Free net
+                      tricks
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+                  <!------ Dropdown Menu ---->
+                  <div class="dropdown_menu">
+                    <ul class="category-dropdown">
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-network-wired"></i> Airtel free net
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-network-wired"></i> Banglalink free
+                            net
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-network-wired"></i> Gp free net
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-network-wired"></i> Robi free net
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <a id="Hacking">
+                    <div>
+                      <i class="fas fa-user-lock text-danger"></i> Hacking
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+
+                  <!------ Dropdown Menu ---->
+                  <div class="dropdown_menu">
+                    <ul class="category-dropdown">
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-user-lock"></i> Hacking news
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-user-lock"></i> Hacking tutorials
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <a id="Islamic-Forum">
+                    <div>
+                      <i class="fas fa-mosque text-success"></i> Islamic Forum
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+
+                  <!------ Dropdown Menu ---->
+                  <div class="dropdown_menu">
+                    <ul class="category-dropdown">
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-mosque"></i> Islamic Stories
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-mosque"></i> Hadith & Quran
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a id="Programming">
+                    <div>
+                      <i class="fas fa-laptop-code text-warning"></i>
+                      Programming
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+
+                  <!------ Dropdown Menu ---->
+                  <div class="dropdown_menu">
+                    <ul class="category-dropdown">
+                      <li>
+                        <a>
+                          <div><i class="fas fa-laptop-code"></i> C++</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div><i class="fas fa-laptop-code"></i> Java</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div><i class="fas fa-laptop-code"></i> PHP</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div><i class="fas fa-laptop-code"></i> Paython</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div><i class="fas fa-laptop-code"></i> Node JS</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <a id="Web-Development">
+                    <div>
+                      <i class="fas fa-code text-primary"></i> Web Development
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+
+                  <!------ Dropdown Menu ---->
+                  <div class="dropdown_menu">
+                    <ul class="category-dropdown">
+                      <li>
+                        <a>
+                          <div><i class="fas fa-code"></i> HTML & CSS</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div><i class="fas fa-code"></i> Bootstrap</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div><i class="fas fa-code"></i> JavaScript</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div><i class="fas fa-code"></i> React</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <a id="Windows-PC">
+                    <div>
+                      <i class="fab fa-windows text-info"></i> Windows PC
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+
+                <li>
+                  <a id="Freelancing">
+                    <div>
+                      <i class="fas fa-hand-holding-usd text-warning"></i>
+                      Freelancing
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+                  <!------ Dropdown Menu ---->
+                  <div class="dropdown_menu">
+                    <ul class="category-dropdown">
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-hand-holding-usd"></i> Learning
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <div>
+                            <i class="fas fa-hand-holding-usd"></i> Earning
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <a id="Electronics">
+                    <div>
+                      <i class="fas fa-charging-station text-black"></i>
+                      Electronics
+                    </div>
+                    <i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!----------------- Post area ----------------->
+          <div class="mt-4 px-5 post-area" id="post-container">
+            <!-- Dynamic post -->
+            <!-- 
+              ....
+             -->
+          </div>
+
+          <!----------------Right Sidebar ------------------>
+          <div class="bg-white mt-4 rounded-2 py-3 main-add-area">
+            <div class="add-area">
+              <!----------- Sponsored area ------------->
+              <div>
+                <h5 class="text-start">Sponsored</h5>
+                <!-- 1 -->
+                <div class="d-flex gap-2 sponsored mb-3">
+                  <div>
+                    <img src="img/posts/blog-3.png" alt="" />
+                  </div>
+                  <div>
+                    <h6>তেলেসমাতি অফার । ১০% ক্যাশব্যাক | ফ্রি ডেলিভারি*</h6>
+                    <p class="mb-0">Daraz.com</p>
+                  </div>
+                </div>
+                <!-- 2 -->
+                <div class="d-flex gap-2 sponsored">
+                  <div>
+                    <img src="img/othoba.jpg" alt="" />
+                  </div>
+                  <div>
+                    <h6>১৫% পর্যন্ত ছাড় | ১০% নগদ ক্যাশব্যাক* ফ্রি ডেলিভারি</h6>
+                    <p class="mb-0">othoba.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bootstrap Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My js Link -->
+    <script src="script/posts.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
